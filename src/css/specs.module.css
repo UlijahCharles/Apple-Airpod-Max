@@ -1,0 +1,33 @@
+.specsContainer {
+  padding: 5% 50px;
+  background-color: #ffffff;
+}
+
+.specsImg {
+  width: 100%;
+}
+
+.title {
+  text-align: left;
+  font-size: 5rem;
+  font-family: "Machina", sans-serif;
+  font-weight: 600;
+  margin: 8% 0;
+}
+
+.specsList {
+  list-style: none;
+  padding-left: 0;
+  margin: 13% 0;
+}
+
+.specsTitle {
+  text-align: left;
+  color: black;
+  font-weight: 600;
+}
+
+.specsDesc {
+  color: #9a9a9a;
+  text-align: right;
+}

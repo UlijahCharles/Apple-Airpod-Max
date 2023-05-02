@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Signika:wght@300;400;500;600;700&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Signika", "Machina", Arial, sans-serif, -apple-system,
+    BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
+    "Fira Sans", "Droid Sans", "Helvetica Neue";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.audioListCount {
+  border-radius: 6px;
+  text-align: center;
+  width: 40px;
+  border-style: solid;
+  border-color: #838a81;
+  background-color: #838a81;
+}
+
+.card {
+  border: none;
+  margin: 0 auto;
+}
+
+.card-title {
+  text-align: left;
+}
+
+.card-text {
+  text-align: left;
+  color: #9a9a9a;
+  line-height: 21px;
+}
+
+.btn {
+  text-align: center;
+  width: 150px;
+  border-radius: 25px;
+  font-weight: 500;
+  margin-top: 25px;
+  margin-right: 1420px;
+}

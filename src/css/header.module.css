@@ -1,0 +1,63 @@
+header {
+  background-color: #f4f4f4;
+}
+
+.headerContainer {
+  padding: 0 50px;
+}
+
+.subText {
+  color: #030303;
+  text-align: left;
+  font-size: 2rem;
+}
+
+.navLink {
+  color: #030303;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.navBrand {
+  color: #030303;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.mainMenu {
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 18rem;
+  letter-spacing: 0.3rem;
+  font-family: "Machina", sans-serif;
+  text-align: center;
+}
+
+.subTitle {
+  color: #9a9a9a;
+  text-align: left;
+}
+
+.navBar {
+  background-color: #f4f4f4 !important;
+  padding: 15px 30px;
+}
+
+.featureNumber {
+  font-weight: 600;
+  text-align: left;
+}
+
+.featureText {
+  text-align: left;
+  color: #9a9a9a;
+  font-weight: 300;
+  font-size: 16px;
+  width: 70%;
+}
+
+.headphoneImage {
+  width: 60%;
+}

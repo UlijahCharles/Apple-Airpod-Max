@@ -1,0 +1,46 @@
+.magicalContainer {
+  padding: 5% 50px;
+  background-color: #ffffff;
+}
+
+.featureText {
+  text-align: left;
+  color: #9a9a9a;
+  font-weight: 600;
+  font-size: 15px;
+  width: 14%;
+  margin-bottom: 3rem;
+}
+
+.title {
+  text-align: left;
+  width: 45%;
+  font-size: 6rem;
+  line-height: 80px;
+  font-family: "Machina", sans-serif;
+  font-weight: 600;
+  margin-bottom: 3rem;
+}
+
+.sideNote {
+  color: #9a9a9a;
+}
+
+.cardCount {
+  border-radius: 6px;
+  text-align: center;
+  padding: 0 4px;
+  border-style: solid;
+  border-color: #838a81;
+  background-color: #838a81;
+  margin-right: 2%;
+  font-size: 0.8rem;
+}
+
+.magicalDescription {
+  text-align: left;
+  width: 50%;
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 3rem;
+}

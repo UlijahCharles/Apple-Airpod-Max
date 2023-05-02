@@ -1,0 +1,47 @@
+.buyContainer {
+  padding: 5% 50px;
+  background-color: black;
+}
+
+.title {
+  text-align: left;
+  width: 90%;
+  font-size: 5rem;
+  line-height: 120px;
+  font-family: "Machina", sans-serif;
+  font-weight: 600;
+  margin-top: 2%;
+  margin-bottom: 6%;
+  color: white;
+}
+
+.colorName {
+  text-align: left;
+  padding-left: 1%;
+  color: #9a9a9a;
+}
+
+.colorSelect {
+  list-style: none;
+  flex-direction: row;
+  display: flex;
+  padding-left: 0;
+  margin-bottom: 10%;
+}
+
+.returnList {
+  text-align: left;
+  color: white;
+  font-size: 0.8rem;
+}
+
+.price {
+  text-align: left;
+  color: white;
+  padding-left: 2%;
+  margin-top: 30%;
+}
+
+.buyImage {
+  width: 100%;
+}

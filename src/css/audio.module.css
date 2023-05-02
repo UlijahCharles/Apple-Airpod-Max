@@ -1,0 +1,64 @@
+.audioContainer {
+  padding: 5% 50px;
+  background-color: black;
+}
+
+.featureText {
+  text-align: left;
+  color: #9a9a9a;
+  font-weight: 600;
+  font-size: 15px;
+  width: 5%;
+}
+
+.title {
+  text-align: left;
+  font-size: 5rem;
+  line-height: 75px;
+  font-family: "Machina", sans-serif;
+  font-weight: 600;
+  margin: 2% 0;
+  color: white;
+}
+
+.audioDescription {
+  color: white;
+  text-align: left;
+  font-size: 1.5rem;
+  width: 80%;
+  margin-bottom: 80px;
+}
+
+.audioListRow {
+  margin: 5% 0;
+}
+
+.audioImage {
+  width: 90%;
+}
+
+.audioListTitle {
+  color: white;
+  text-align: left;
+}
+
+.audioListDesc {
+  text-align: left;
+  color: white;
+}
+
+.audioListCount {
+  border-radius: 6px;
+  text-align: center;
+  width: 40px;
+  border-style: solid;
+  border-color: #838a81;
+  background-color: #838a81;
+}
+
+.audioNote {
+  color: white;
+  margin-top: 50%;
+  font-size: 0.8rem;
+  text-align: left;
+}
