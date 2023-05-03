@@ -44,3 +44,28 @@
   font-weight: 500;
   margin-bottom: 3rem;
 }
+
+@media only screen and (max-width: 990px) {
+  .featureText {
+    text-align: left;
+    width: 100%;
+  }
+
+  .title {
+    text-align: center;
+    width: 100%;
+    font-size: 3rem;
+    margin-bottom: 5%;
+  }
+
+  .magicalDescription {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 4%;
+    font-size: 1rem;
+  }
+
+  .sideNote {
+    margin-bottom: 5%;
+  }
+}

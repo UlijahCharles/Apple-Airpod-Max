@@ -9,7 +9,9 @@ header {
 .subText {
   color: #030303;
   text-align: left;
-  font-size: 2rem;
+  font-size: 3rem;
+  margin-bottom: 5%;
+  width: 100%;
 }
 
 .navLink {
@@ -38,6 +40,7 @@ header {
 .subTitle {
   color: #9a9a9a;
   text-align: left;
+  margin-top: 4%;
 }
 
 .navBar {
@@ -45,19 +48,46 @@ header {
   padding: 15px 30px;
 }
 
-.featureNumber {
-  font-weight: 600;
-  text-align: left;
-}
-
 .featureText {
-  text-align: left;
+  text-align: center;
   color: #9a9a9a;
   font-weight: 300;
-  font-size: 16px;
+  font-size: 1.6rem;
   width: 70%;
 }
 
 .headphoneImage {
-  width: 60%;
+  width: 30%;
+  margin-bottom: 4%;
+}
+
+@media only screen and (max-width: 990px) {
+  .title {
+    font-size: 9rem;
+  }
+
+  .headphoneImage {
+    margin: 4% 0;
+  }
+
+  .featureText {
+    text-align: center;
+    width: 100%;
+  }
+
+  .subTitle {
+    margin-top: 3%;
+  }
+
+  .subText {
+    margin-bottom: 5%;
+    font-size: 1.4rem;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .title {
+    font-size: 5rem;
+  }
 }

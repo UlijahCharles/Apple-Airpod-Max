@@ -60,35 +60,43 @@ const Header = (props) => {
           <div className="row">
             <div className="col-12">
               <p className={`h1 ${style.title}`}>AirPods Max&reg;</p>
+
+              <div className="col-12">
+                <img src={hpImage} alt="" className={style.headphoneImage} />
+              </div>
             </div>
           </div>
 
           <div className="row">
-            <div className="col-3">
+            <div className="col-6">
               <p className="audioListCount">1</p>{" "}
               <p className={style.featureText}>
                 Active Noise Cancellation with Transparency mode
               </p>
+            </div>
+            <div className="col-6">
               <p className="audioListCount">3</p>{" "}
               <p className={style.featureText}>
                 Stunning design with an exceptional fit
               </p>
             </div>
-            <div className="col-3">
+          </div>
+          <div className="row">
+            <div className="col-6">
               <p className="audioListCount">2</p>{" "}
               <p className={style.featureText}>
                 Personalized Spatial Audio for theater‑like sound that surrounds
                 you
               </p>
+            </div>
+            <div className="col-6">
               <p className="audioListCount">4</p>{" "}
               <p className={style.featureText}>High-fidelity audio</p>
             </div>
-            <div className="col-6">
-              <img src={hpImage} alt="" className={style.headphoneImage} />
-            </div>
           </div>
+
           <div className="row">
-            <div className="col-3">
+            <div className="col-12 ">
               <p className={style.subTitle}>Introducing AirPods Max</p>
               <p className={style.subText}>
                 A perfect balance of exhilarating high-fidelity audio and the
@@ -98,7 +106,7 @@ const Header = (props) => {
             </div>
           </div>
         </div>
-
+        {/*
         <Player
           autoPlay
           muted
@@ -107,6 +115,7 @@ const Header = (props) => {
         >
           <ControlBar disableCompletely={true} className="my-class" />
         </Player>
+     */}{" "}
       </header>
     </React.Fragment>
   );

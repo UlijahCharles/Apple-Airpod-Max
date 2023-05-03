@@ -14,7 +14,7 @@ const Design = () => {
         <p className={`h1 ${style.title}`}>A radically original composition.</p>
 
         <div className="row">
-          <div className="col-3">
+          <div className="col-6 col-lg-3">
             <img className={style.designImage} src={hp_design_1} alt="" />
             <p className={style.designDescription}>
               The over-ear headphone has been{" "}
@@ -25,8 +25,8 @@ const Design = () => {
               uncompromising fit.
             </p>
           </div>
-          <div className="col-3"></div>
-          <div className="col-3">
+          <div className="col-6 col-lg-3"></div>
+          <div className="col-6 col-lg-3">
             <img className={style.designImage} src={hp_design_2} alt="" />
             <p className={style.designDescription}>
               <span className={style.spanDescription}>The canopy</span> spanning
@@ -34,7 +34,7 @@ const Design = () => {
               weight to reduce on‑head pressure.
             </p>
           </div>
-          <div className="col-3">
+          <div className="col-6 col-lg-3">
             <img className={style.designImage} src={hp_design_3} alt="" />
             <p className={style.designDescription}>
               <span className={style.spanDescription}>
@@ -47,8 +47,8 @@ const Design = () => {
         </div>
 
         <div className="row">
-          <div className="col-3"></div>
-          <div className="col-3">
+          <div className="col-6 col-lg-3"></div>
+          <div className="col-6 col-lg-3">
             <img className={style.designImage} src={hp_design_4} alt="" />
             <p className={style.designDescription}>
               <span className={style.spanDescription}>
@@ -58,8 +58,8 @@ const Design = () => {
               independently.
             </p>
           </div>
-          <div className="col-3"></div>
-          <div className="col-3">
+          <div className="col-6 col-lg-3"></div>
+          <div className="col-6 col-lg-3">
             <img className={style.designImage} src={hp_design_5} alt="" />
             <p className={style.designDescription}>
               <span className={style.spanDescription}>Telescoping arms</span>{" "}

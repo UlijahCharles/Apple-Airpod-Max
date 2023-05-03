@@ -46,3 +46,9 @@ code {
   margin-top: 25px;
   margin-right: 1420px;
 }
+
+@media only screen and (max-width: 990px) {
+  .btn {
+    margin: 0 2%;
+  }
+}

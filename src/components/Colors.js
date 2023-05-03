@@ -22,12 +22,12 @@ const Colors = () => {
       <div className={style.colorsContainer}>
         <p className={style.featureText}>Colors (2)</p>
         <div className="row">
-          <div className="col-8">
+          <div className="col-12 col-md-8">
             <p className={`h1 ${style.title}`}>
               Five colors. Anything but monotone.
             </p>
           </div>
-          <div className="col-4">
+          <div className="col-12 col-md-4">
             <ul className={style.colorSelect}>
               <li>
                 <button
@@ -83,8 +83,12 @@ const Colors = () => {
               <div className="carousel-inner">
                 <div className="carousel-item active">
                   <div className="row">
-                    <div className="col-4">
-                      <img src={whiteSideHP} className=" w-100" alt="..." />
+                    <div className="col-4 ">
+                      <img
+                        src={whiteSideHP}
+                        className={style.colorHpLeft}
+                        alt="..."
+                      />
                     </div>
                     <div className="col-8">
                       <img

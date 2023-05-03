@@ -16,7 +16,7 @@
 
 .title {
   text-align: left;
-  width: 45%;
+  width: 50%;
   font-size: 5rem;
   line-height: 75px;
   font-family: "Machina", sans-serif;
@@ -25,15 +25,43 @@
 }
 
 .designImage {
-  width: 70%;
+  width: 60%;
 }
 
 .designDescription {
   width: 70%;
   margin: 8% auto;
-  font-size: 1rem;
+  font-size: 1.4rem;
 }
 
 .spanDescription {
   font-weight: bold;
+}
+
+@media only screen and (max-width: 2000px) {
+  .designImage {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 990px) {
+  .featureText {
+    text-align: left;
+    width: 100%;
+  }
+
+  .designImage {
+    width: 80%;
+  }
+
+  .title {
+    text-align: center;
+    width: 100%;
+    font-size: 3rem;
+  }
+
+  .designDescription {
+    width: 100%;
+    font-size: 1rem;
+  }
 }

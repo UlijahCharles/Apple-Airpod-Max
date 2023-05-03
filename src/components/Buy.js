@@ -15,7 +15,7 @@ const Buy = () => {
   return (
     <div className={style.buyContainer}>
       <div className="row">
-        <div className="col-6">
+        <div className="col-12 col-md-6">
           <p className={`h1 ${style.title}`}>Buy AirPods Max</p>
           <p className={style.colorName}>Colors:</p>
           <ul className={style.colorSelect}>
@@ -82,7 +82,7 @@ const Buy = () => {
             Add To Cart
           </button>
         </div>
-        <div className="col-6">
+        <div className="col-12 col-md-6">
           <div id="carouselFade2" className="carousel slide carousel-fade">
             <div className="carousel-inner">
               <div className="carousel-item active">

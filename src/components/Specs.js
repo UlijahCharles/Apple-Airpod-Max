@@ -7,18 +7,18 @@ const Specs = () => {
   return (
     <div className={style.specsContainer}>
       <div className="row">
-        <div className="col-6">
+        <div className="col-12 col-md-6">
           <img className={style.specsImg} src={caseImg} alt="" />
         </div>
-        <div className="col-6">
+        <div className="col-12 col-md-6">
           <img className={style.specsImg} src={twentyImg} alt="" />
         </div>
       </div>
       <div className="row">
-        <div className="col-6">
+        <div className="col-12 col-md-6">
           <h1 className={style.title}>Tech Specs</h1>
         </div>
-        <div className="col-6">
+        <div className="col-12 col-md-6">
           <ul className={style.specsList}>
             <li>
               <hr />

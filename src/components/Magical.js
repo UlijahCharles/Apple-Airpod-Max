@@ -9,29 +9,29 @@ const Magical = () => {
     <div className={style.magicalContainer}>
       <p className={style.featureText}>Magical experience (4)</p>
       <div className="row">
-        <div className="col-11">
+        <div className="col-12 col-md-11">
           <p className={`h1 ${style.title}`}>Elaborately simple.</p>
         </div>
-        <div className="col-1">
+        <div className="col-12 col-md-1">
           <p className={style.sideNote}>More magic to play with.</p>
         </div>
       </div>
       <div className="row">
-        <div className="col-11">
+        <div className="col-12 col-md-11">
           <p className={style.magicalDescription}>
             AirPods Max inherit all of the wireless, effortless magic of the
             AirPods family. From setup to Siri commands, they make the listening
             experience completely fluid — day to day, device to device.
           </p>
         </div>
-        <div className="col-1">
+        <div className="col-12 col-md-1">
           <p className={style.sideNote}>
             On-head detection / Announce Notifications / Always-on Siri
           </p>
         </div>
       </div>
       <div className="row">
-        <div className="col-4">
+        <div className="col-12 col-md-4">
           <div className="card" style={{ width: "18rem" }}>
             <img src={tapImage} className="card-img-top" alt="..." />
             <div className="card-body">
@@ -46,7 +46,7 @@ const Magical = () => {
             </div>
           </div>
         </div>
-        <div className="col-4">
+        <div className="col-12 col-md-4">
           <div className="card" style={{ width: "18rem" }}>
             <img src={seamlessImage} className="card-img-top" alt="..." />
             <div className="card-body">
@@ -61,7 +61,7 @@ const Magical = () => {
             </div>
           </div>
         </div>
-        <div className="col-4">
+        <div className="col-12 col-md-4">
           <div className="card" style={{ width: "18rem" }}>
             <img src={sharingImage} className="card-img-top" alt="..." />
             <div className="card-body">

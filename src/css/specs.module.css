@@ -4,7 +4,7 @@
 }
 
 .specsImg {
-  width: 100%;
+  width: 70%;
 }
 
 .title {
@@ -30,4 +30,17 @@
 .specsDesc {
   color: #9a9a9a;
   text-align: right;
+}
+
+@media only screen and (max-width: 1600px) {
+}
+
+@media only screen and (max-width: 990px) {
+  .title {
+    text-align: center;
+  }
+
+  .specsImg {
+    margin-bottom: 4%;
+  }
 }

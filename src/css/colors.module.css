@@ -37,6 +37,45 @@ button {
   background: none;
 }
 
+.colorHpLeft {
+  width: 58%;
+}
+
 .colorHpRight {
-  width: 86%;
+  width: 50%;
+}
+
+@media only screen and (max-width: 1600px) {
+  .colorHpLeft {
+    width: 100%;
+  }
+
+  .colorHpRight {
+    width: 86%;
+  }
+}
+
+@media only screen and (max-width: 990px) {
+  .featureText {
+    width: 50%;
+  }
+
+  .title {
+    text-align: center;
+    width: 100%;
+    font-size: 3rem;
+  }
+
+  .colorSelect {
+    justify-content: center;
+    margin: 4% 0;
+  }
+
+  .colorHpLeft {
+    width: 100%;
+  }
+
+  .colorHpRight {
+    width: 85%;
+  }
 }

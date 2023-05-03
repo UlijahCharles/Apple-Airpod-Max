@@ -5,10 +5,10 @@ const Footer = () => {
   return (
     <div className={style.footerContainer}>
       <div className="row">
-        <div className="col-6">
+        <div className="col-12 col-md-6">
           <h1 className={style.title}>AirPods Max&reg;</h1>
         </div>
-        <div className="col-6">
+        <div className="col-12 col-md-6">
           <p className={style.footerDesc}>
             A perfect balance of exhilarating high-fidelity audio and the
             effortless magic
@@ -16,7 +16,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="row">
-        <div className="col-6">
+        <div className="col-12 col-md-6">
           <ol className={style.footerList}>
             <li className={style.footerItem}>
               <p>
@@ -36,7 +36,7 @@ const Footer = () => {
             </li>
           </ol>
         </div>
-        <div className="col-6">
+        <div className="col-12 col-md-6">
           <ol className={style.footerList}>
             <li className={style.footerItem}>
               <p>

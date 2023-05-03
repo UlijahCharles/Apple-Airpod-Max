@@ -9,10 +9,10 @@ const Audio = () => {
         <p className={style.featureText}>Audio Quality (3)</p>
 
         <div className="row">
-          <div className="col-6">
+          <div className="col-12 col-md-6">
             <p className={`h1 ${style.title}`}>Sounds like an epiphany.</p>
           </div>
-          <div className="col-6">
+          <div className="col-12 col-md-6">
             <p className={style.audioDescription}>
               AirPods Max combine high-fidelity audio with industry-leading
               Active Noise Cancellation to deliver an unparalleled listening
@@ -24,13 +24,13 @@ const Audio = () => {
           </div>
         </div>
         <div className="row">
-          <div className="col-6">
+          <div className="col-12 col-md-6">
             <img className={style.audioImage} src={audioImage} alt="" />
           </div>
-          <div className="col-6">
+          <div className="col-12 col-md-6">
             <div className="row">
-              <div className="col-6">
-                <p className="audioListCount">1</p>
+              <div className="col-12 col-md-6" id={style["one"]}>
+                <p className={style.audioListCount}>1</p>
                 <p className={`h5 ${style.audioListTitle}`}>
                   Immersive listening
                 </p>
@@ -41,8 +41,8 @@ const Audio = () => {
                   you’re hearing.
                 </p>
               </div>
-              <div className="col-6">
-                <p className="audioListCount">2</p>
+              <div className="col-12 col-md-6" id={style["two"]}>
+                <p className={style.audioListCount}>2</p>
                 <p className={`h5 ${style.audioListTitle}`}>
                   Hear every detail
                 </p>
@@ -55,8 +55,8 @@ const Audio = () => {
               </div>
             </div>
             <div className={`row ${style.audioListRow}`}>
-              <div className="col-6">
-                <p className="audioListCount">3</p>
+              <div className="col-12 col-md-6" id={style["three"]}>
+                <p className={style.audioListCount}>3</p>
                 <p className={`h5 ${style.audioListTitle}`}>
                   Distortionless playback
                 </p>
@@ -67,8 +67,8 @@ const Audio = () => {
                   result is consistently clear playback, even at full volume.
                 </p>
               </div>
-              <div className="col-6">
-                <p className="audioListCount">4</p>
+              <div className="col-12 col-md-6" id={style["four"]}>
+                <p className={style.audioListCount}>4</p>
                 <p className={`h5 ${style.audioListTitle}`}>Adaptive EQ</p>
                 <p className={style.audioListDesc}>
                   Adaptive EQ tailors sound to the bespoke fit and seal created
@@ -79,8 +79,8 @@ const Audio = () => {
               </div>
             </div>
             <div className="row">
-              <div className="col-6">
-                <p className="audioListCount">5</p>
+              <div className="col-12 col-md-6" id={style["five"]}>
+                <p className={style.audioListCount}>5</p>
                 <p className={`h5 ${style.audioListTitle}`}>
                   Active Noise Cancellation
                 </p>
@@ -96,8 +96,8 @@ const Audio = () => {
                   that surrounds you.
                 </p>
               </div>
-              <div className="col-6">
-                <p className="audioListCount">6</p>
+              <div className="col-12 col-md-6" id={style["six"]}>
+                <p className={style.audioListCount}>6</p>
                 <p className={`h5 ${style.audioListTitle}`}>
                   Transparency mode
                 </p>

@@ -34,7 +34,7 @@
 }
 
 .audioImage {
-  width: 90%;
+  width: 60%;
 }
 
 .audioListTitle {
@@ -49,7 +49,6 @@
 
 .audioListCount {
   border-radius: 6px;
-  text-align: center;
   width: 40px;
   border-style: solid;
   border-color: #838a81;
@@ -61,4 +60,91 @@
   margin-top: 50%;
   font-size: 0.8rem;
   text-align: left;
+}
+
+@media only screen and (max-width: 1600px) {
+  .audioImage {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 990px) {
+  .featureText {
+    width: 50%;
+  }
+
+  .title {
+    text-align: center;
+    margin-bottom: 4%;
+    font-size: 3rem;
+  }
+  .audioDescription {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 5%;
+    font-size: 1rem;
+  }
+
+  .audioImage {
+    width: 60%;
+  }
+
+  #one {
+    width: 70%;
+  }
+
+  #two {
+    width: 70%;
+    margin-left: 30%;
+  }
+
+  #two > .audioListDesc {
+    text-align: right;
+  }
+
+  #two > .audioListTitle {
+    text-align: right;
+  }
+
+  #two > .audioListCount {
+    margin-left: 90%;
+  }
+
+  #three {
+    width: 70%;
+  }
+  #four {
+    width: 70%;
+    margin-left: 30%;
+  }
+
+  #four > .audioListDesc {
+    text-align: right;
+  }
+
+  #four > .audioListTitle {
+    text-align: right;
+  }
+  #four > .audioListCount {
+    margin-left: 90%;
+  }
+  #five {
+    width: 70%;
+  }
+  #six {
+    width: 70%;
+    margin-left: 30%;
+  }
+
+  #six > .audioListDesc {
+    text-align: right;
+  }
+
+  #six > .audioListTitle {
+    text-align: right;
+  }
+
+  #six > .audioListCount {
+    margin-left: 90%;
+  }
 }

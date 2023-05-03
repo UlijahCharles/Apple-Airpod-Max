@@ -27,3 +27,17 @@
   text-align: left;
   color: #747474;
 }
+@media only screen and (max-width: 1300px) {
+  .footerItem {
+    text-align: center;
+  }
+
+  .title {
+    text-align: center;
+  }
+
+  .footerDesc {
+    text-align: center;
+    width: 100%;
+  }
+}
