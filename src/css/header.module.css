@@ -10,7 +10,7 @@ header {
   color: #030303;
   text-align: left;
   font-size: 3rem;
-  margin-bottom: 5%;
+  margin-bottom: 12%;
   width: 100%;
 }
 
@@ -40,7 +40,7 @@ header {
 .subTitle {
   color: #9a9a9a;
   text-align: left;
-  margin-top: 4%;
+  margin-top: 12%;
 }
 
 .navBar {
@@ -83,12 +83,7 @@ header {
     font-size: 1.3rem;
   }
 
-  .subTitle {
-    margin-top: 3%;
-  }
-
   .subText {
-    margin-bottom: 5%;
     font-size: 1.2rem;
     width: 100%;
   }

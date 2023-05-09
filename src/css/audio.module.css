@@ -76,7 +76,8 @@
   .title {
     text-align: center;
     margin-bottom: 4%;
-    font-size: 3rem;
+    font-size: 2.5rem;
+    line-height: 55px;
   }
   .audioDescription {
     text-align: center;

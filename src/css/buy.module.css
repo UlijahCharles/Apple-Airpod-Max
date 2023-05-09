@@ -55,6 +55,8 @@
   .title {
     text-align: center;
     width: 100%;
+    font-size: 2.5rem;
+    line-height: 60px;
   }
 
   .colorName {
