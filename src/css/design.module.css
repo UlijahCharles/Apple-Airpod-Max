@@ -29,7 +29,7 @@
 }
 
 .designDescription {
-  width: 70%;
+  width: 60%;
   margin: 8% auto;
   font-size: 1.2rem;
 }
@@ -40,11 +40,24 @@
 
 @media only screen and (max-width: 2000px) {
   .designImage {
-    width: 90%;
+    width: 70%;
+  }
+  .designDescription {
+    width: 70%;
   }
 }
 
-@media only screen and (max-width: 990px) {
+@media only screen and (max-width: 1300px) {
+  .designImage {
+    width: 80%;
+  }
+  .designDescription {
+    width: 80%;
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
   .featureText {
     text-align: left;
     width: 100%;
@@ -61,7 +74,7 @@
   }
 
   .designDescription {
-    width: 100%;
-    font-size: 1rem;
+    width: 80%;
+    font-size: 0.9rem;
   }
 }

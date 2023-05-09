@@ -31,7 +31,7 @@ header {
 }
 
 .title {
-  font-size: 18rem;
+  font-size: 16rem;
   letter-spacing: 0.3rem;
   font-family: "Machina", sans-serif;
   text-align: center;
@@ -61,6 +61,12 @@ header {
   margin-bottom: 8%;
 }
 
+@media only screen and (max-width: 1600px) {
+  .headphoneImage {
+    width: 50%;
+  }
+}
+
 @media only screen and (max-width: 990px) {
   .title {
     font-size: 9rem;
@@ -68,6 +74,7 @@ header {
 
   .headphoneImage {
     margin: 8% 0;
+    width: 70%;
   }
 
   .featureText {
@@ -87,8 +94,16 @@ header {
   }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
   .title {
     font-size: 5rem;
+  }
+
+  .headphoneImage {
+    width: 80%;
+  }
+
+  .featureText {
+    font-size: 0.9rem;
   }
 }

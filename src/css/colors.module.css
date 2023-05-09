@@ -1,6 +1,6 @@
 .colorsContainer {
   padding: 5% 50px;
-  background-color: #ffffff;
+  background-color: #f3f3f3;
 }
 
 .featureText {
@@ -42,16 +42,16 @@ button {
 }
 
 .colorHpRight {
-  width: 50%;
+  width: 55%;
 }
 
 @media only screen and (max-width: 1600px) {
   .colorHpLeft {
-    width: 100%;
+    width: 90%;
   }
 
   .colorHpRight {
-    width: 86%;
+    width: 90%;
   }
 }
 
@@ -72,10 +72,10 @@ button {
   }
 
   .colorHpLeft {
-    width: 100%;
+    width: 90%;
   }
 
   .colorHpRight {
-    width: 85%;
+    width: 87%;
   }
 }
