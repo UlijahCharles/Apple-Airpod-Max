@@ -33,7 +33,11 @@ const Magical = () => {
       <div className="row">
         <div className="col-12 col-md-4">
           <div className="card" style={{ width: "18rem" }}>
-            <img src={tapImage} className="card-img-top" alt="..." />
+            <img
+              src={tapImage}
+              className="card-img-top"
+              alt="Apple app showcasing one-tap setup feature"
+            />
             <div className="card-body">
               <h5 className="card-title">
                 <span className={style.cardCount}>1</span>One-tap setup
@@ -48,7 +52,11 @@ const Magical = () => {
         </div>
         <div className="col-12 col-md-4">
           <div className="card" style={{ width: "18rem" }}>
-            <img src={seamlessImage} className="card-img-top" alt="..." />
+            <img
+              src={seamlessImage}
+              className="card-img-top"
+              alt="Apple app showcasing seamless switching"
+            />
             <div className="card-body">
               <h5 className="card-title">
                 <span className={style.cardCount}>2</span>Seamless switching
@@ -63,7 +71,11 @@ const Magical = () => {
         </div>
         <div className="col-12 col-md-4">
           <div className="card" style={{ width: "18rem" }}>
-            <img src={sharingImage} className="card-img-top" alt="..." />
+            <img
+              src={sharingImage}
+              className="card-img-top"
+              alt="Apple app showcasing audio sharing"
+            />
             <div className="card-body">
               <h5 className="card-title">
                 {" "}

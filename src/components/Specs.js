@@ -5,13 +5,21 @@ import style from "../css/specs.module.css";
 
 const Specs = () => {
   return (
-    <div className={style.specsContainer}>
+    <div className={style.specsContainer} id="specs">
       <div className="row">
         <div className="col-12 col-md-6">
-          <img className={style.specsImg} src={caseImg} alt="" />
+          <img
+            className={style.specsImg}
+            src={caseImg}
+            alt="AirPods Max case"
+          />
         </div>
         <div className="col-12 col-md-6">
-          <img className={style.specsImg} src={twentyImg} alt="" />
+          <img
+            className={style.specsImg}
+            src={twentyImg}
+            alt="AirPods Max battery life hours"
+          />
         </div>
       </div>
       <div className="row">

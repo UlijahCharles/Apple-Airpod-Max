@@ -35,7 +35,7 @@ const Colors = () => {
                   data-bs-target="#carouselFade"
                   data-bs-slide-to="0"
                 >
-                  <img src={whiteSelect} alt="" />
+                  <img src={whiteSelect} alt="White Color Selector" />
                 </button>
               </li>
               <li>
@@ -44,7 +44,7 @@ const Colors = () => {
                   data-bs-target="#carouselFade"
                   data-bs-slide-to="1"
                 >
-                  <img src={blackSelect} alt="" />
+                  <img src={blackSelect} alt="Black Color Selector" />
                 </button>
               </li>
               <li>
@@ -53,7 +53,7 @@ const Colors = () => {
                   data-bs-target="#carouselFade"
                   data-bs-slide-to="2"
                 >
-                  <img src={blueSelect} alt="" />
+                  <img src={blueSelect} alt="Blue Color Selector" />
                 </button>
               </li>
               <li>
@@ -62,7 +62,7 @@ const Colors = () => {
                   data-bs-target="#carouselFade"
                   data-bs-slide-to="3"
                 >
-                  <img src={redSelect} alt="" />
+                  <img src={redSelect} alt="Red Color Selector" />
                 </button>
               </li>
               <li>
@@ -71,7 +71,7 @@ const Colors = () => {
                   data-bs-target="#carouselFade"
                   data-bs-slide-to="4"
                 >
-                  <img src={greenSelect} alt="" />
+                  <img src={greenSelect} alt="Green Color Selector" />
                 </button>
               </li>
             </ul>
@@ -87,14 +87,14 @@ const Colors = () => {
                       <img
                         src={whiteSideHP}
                         className={style.colorHpLeft}
-                        alt="..."
+                        alt="Side Profile White Airpod Max"
                       />
                     </div>
                     <div className="col-8">
                       <img
                         src={whiteHP}
                         className={style.colorHpRight}
-                        alt="..."
+                        alt="White ApplePods Max"
                       />
                     </div>
                   </div>
@@ -103,13 +103,17 @@ const Colors = () => {
                 <div className="carousel-item ">
                   <div className="row">
                     <div className="col-4">
-                      <img src={blackSideHP} className=" w-100" alt="..." />
+                      <img
+                        src={blackSideHP}
+                        className={style.colorHpLeft}
+                        alt="Side Profile Black Airpod Max"
+                      />
                     </div>
                     <div className="col-8">
                       <img
                         src={blackHP}
                         className={style.colorHpRight}
-                        alt="..."
+                        alt="Black ApplePods Max"
                       />
                     </div>
                   </div>
@@ -117,13 +121,17 @@ const Colors = () => {
                 <div className="carousel-item ">
                   <div className="row">
                     <div className="col-4">
-                      <img src={blueSideHP} className=" w-100" alt="..." />
+                      <img
+                        src={blueSideHP}
+                        className={style.colorHpLeft}
+                        alt="Side Profile Blue Airpod Max"
+                      />
                     </div>
                     <div className="col-8">
                       <img
                         src={blueHP}
                         className={style.colorHpRight}
-                        alt="..."
+                        alt="Blue ApplePods Max"
                       />
                     </div>
                   </div>
@@ -131,13 +139,17 @@ const Colors = () => {
                 <div className="carousel-item ">
                   <div className="row">
                     <div className="col-4">
-                      <img src={redSideHP} className=" w-100" alt="..." />
+                      <img
+                        src={redSideHP}
+                        className={style.colorHpLeft}
+                        alt="Side Profile Red Airpod Max"
+                      />
                     </div>
                     <div className="col-8">
                       <img
                         src={redHP}
                         className={style.colorHpRight}
-                        alt="..."
+                        alt="Red ApplePods Max"
                       />
                     </div>
                   </div>
@@ -145,13 +157,17 @@ const Colors = () => {
                 <div className="carousel-item ">
                   <div className="row">
                     <div className="col-4">
-                      <img src={greenSideHP} className=" w-100" alt="..." />
+                      <img
+                        src={greenSideHP}
+                        className={style.colorHpLeft}
+                        alt="Side Profile Green Airpod Max"
+                      />
                     </div>
                     <div className="col-8">
                       <img
                         src={greenHP}
                         className={style.colorHpRight}
-                        alt="..."
+                        alt="Green ApplePods Max"
                       />
                     </div>
                   </div>

@@ -11,7 +11,7 @@ const Header = (props) => {
         className={`navbar navbar-expand-lg bg-body-tertiary ${style.navBar}`}
       >
         <div className="container-fluid">
-          <a className={`navbar-brand ${style.navBrand}`} href="#">
+          <a className={`navbar-brand ${style.navBrand}`} href="/">
             AirPods Max&reg;
           </a>
           <button
@@ -34,22 +34,26 @@ const Header = (props) => {
                 <a
                   className={`nav-link ${style.navLink}`}
                   aria-current="page"
-                  href="#"
+                  href="#design"
                 >
                   Overview
                 </a>
               </li>
               <li className="nav-item ">
-                <a className={`nav-link ${style.navLink}`} href="#">
+                <a
+                  className={`nav-link ${style.navLink}`}
+                  href="
+                #specs"
+                >
                   Tech Specs
                 </a>
               </li>
             </ul>
             <ul className="navbar-nav ">
               <li className="nav-item">
-                <a className={`nav-link ${style.navLink}`} href="#">
+                <button className={`nav-link ${style.navLink}`} href="#">
                   Buy ( 0 )
-                </a>
+                </button>
               </li>
             </ul>
           </div>
@@ -68,13 +72,13 @@ const Header = (props) => {
           </div>
 
           <div className="row">
-            <div className="col-6">
+            <div className={`col-6 ${style["feature-List"]}`}>
               <p className="audioListCount">1</p>{" "}
               <p className={style.featureText}>
                 Active Noise Cancellation with Transparency mode
               </p>
             </div>
-            <div className="col-6">
+            <div className={`col-6 ${style["feature-List"]}`}>
               <p className="audioListCount">3</p>{" "}
               <p className={style.featureText}>
                 Stunning design with an exceptional fit
@@ -82,14 +86,14 @@ const Header = (props) => {
             </div>
           </div>
           <div className="row">
-            <div className="col-6">
+            <div className={`col-6 ${style["feature-List"]}`}>
               <p className="audioListCount">2</p>{" "}
               <p className={style.featureText}>
                 Personalized Spatial Audio for theater‑like sound that surrounds
                 you
               </p>
             </div>
-            <div className="col-6">
+            <div className={`col-6 ${style["feature-List"]}`}>
               <p className="audioListCount">4</p>{" "}
               <p className={style.featureText}>High-fidelity audio</p>
             </div>
@@ -106,7 +110,7 @@ const Header = (props) => {
             </div>
           </div>
         </div>
-        {/*
+
         <Player
           autoPlay
           muted
@@ -115,7 +119,6 @@ const Header = (props) => {
         >
           <ControlBar disableCompletely={true} className="my-class" />
         </Player>
-     */}{" "}
       </header>
     </React.Fragment>
   );

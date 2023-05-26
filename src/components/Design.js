@@ -9,13 +9,17 @@ import hp_design_5 from "../assets/Group_61.jpg";
 const Design = () => {
   return (
     <React.Fragment>
-      <div className={style.designContainer}>
+      <div className={style.designContainer} id="design">
         <p className={style.featureText}>Design (1)</p>
         <p className={`h1 ${style.title}`}>A radically original composition.</p>
 
         <div className="row">
           <div className="col-6 col-lg-3">
-            <img className={style.designImage} src={hp_design_1} alt="" />
+            <img
+              className={style.designImage}
+              src={hp_design_1}
+              alt="AirPods Max Over-ear headphones"
+            />
             <p className={style.designDescription}>
               The over-ear headphone has been{" "}
               <span className={style.spanDescription}>
@@ -27,7 +31,11 @@ const Design = () => {
           </div>
           <div className="col-6 col-lg-3"></div>
           <div className="col-6 col-lg-3">
-            <img className={style.designImage} src={hp_design_2} alt="" />
+            <img
+              className={style.designImage}
+              src={hp_design_2}
+              alt="AirPods Max headband"
+            />
             <p className={style.designDescription}>
               <span className={style.spanDescription}>The canopy</span> spanning
               the headband is made from a breathable knit mesh, distributing
@@ -35,7 +43,11 @@ const Design = () => {
             </p>
           </div>
           <div className="col-6 col-lg-3">
-            <img className={style.designImage} src={hp_design_3} alt="" />
+            <img
+              className={style.designImage}
+              src={hp_design_3}
+              alt="AirPods Max stainless steel frame"
+            />
             <p className={style.designDescription}>
               <span className={style.spanDescription}>
                 The stainless steel frame
@@ -49,7 +61,11 @@ const Design = () => {
         <div className="row">
           <div className="col-6 col-lg-3"></div>
           <div className="col-6 col-lg-3">
-            <img className={style.designImage} src={hp_design_4} alt="" />
+            <img
+              className={style.designImage}
+              src={hp_design_4}
+              alt="AirPods Max aluminum cups"
+            />
             <p className={style.designDescription}>
               <span className={style.spanDescription}>
                 The beautifully anodized aluminum cups
@@ -60,7 +76,11 @@ const Design = () => {
           </div>
           <div className="col-6 col-lg-3"></div>
           <div className="col-6 col-lg-3">
-            <img className={style.designImage} src={hp_design_5} alt="" />
+            <img
+              className={style.designImage}
+              src={hp_design_5}
+              alt="AirPods Max telescope arms"
+            />
             <p className={style.designDescription}>
               <span className={style.spanDescription}>Telescoping arms</span>{" "}
               smoothly extend and stay where you set them, for a consistent fit

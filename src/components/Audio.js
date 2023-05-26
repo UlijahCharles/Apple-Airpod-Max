@@ -25,7 +25,11 @@ const Audio = () => {
         </div>
         <div className="row">
           <div className="col-12 col-md-6">
-            <img className={style.audioImage} src={audioImage} alt="" />
+            <img
+              className={style.audioImage}
+              src={audioImage}
+              alt="Women wearing AirPods Max"
+            />
           </div>
           <div className="col-12 col-md-6">
             <div className="row">

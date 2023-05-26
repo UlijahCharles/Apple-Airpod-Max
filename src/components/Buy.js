@@ -25,7 +25,7 @@ const Buy = () => {
                 data-bs-target="#carouselFade2"
                 data-bs-slide-to="0"
               >
-                <img src={whiteSelect} alt="" />
+                <img src={whiteSelect} alt="White Color Selector" />
               </button>
             </li>
             <li>
@@ -34,7 +34,7 @@ const Buy = () => {
                 data-bs-target="#carouselFade2"
                 data-bs-slide-to="1"
               >
-                <img src={blackSelect} alt="" />
+                <img src={blackSelect} alt="Black Color Selector" />
               </button>
             </li>
             <li>
@@ -43,7 +43,7 @@ const Buy = () => {
                 data-bs-target="#carouselFade2"
                 data-bs-slide-to="2"
               >
-                <img src={blueSelect} alt="" />
+                <img src={blueSelect} alt="Blue Color Selector" />
               </button>
             </li>
             <li>
@@ -52,7 +52,7 @@ const Buy = () => {
                 data-bs-target="#carouselFade2"
                 data-bs-slide-to="3"
               >
-                <img src={redSelect} alt="" />
+                <img src={redSelect} alt="Red Color Selector" />
               </button>
             </li>
             <li>
@@ -61,7 +61,7 @@ const Buy = () => {
                 data-bs-target="#carouselFade2"
                 data-bs-slide-to="4"
               >
-                <img src={greenSelect} alt="" />
+                <img src={greenSelect} alt="Green Color Selector" />
               </button>
             </li>
           </ul>
@@ -86,19 +86,39 @@ const Buy = () => {
           <div id="carouselFade2" className="carousel slide carousel-fade">
             <div className="carousel-inner">
               <div className="carousel-item active">
-                <img src={whiteHP} alt="" className={style.buyImage} />
+                <img
+                  src={whiteHP}
+                  alt="White ApplePods Max"
+                  className={style.buyImage}
+                />
               </div>
               <div className="carousel-item ">
-                <img src={blackHP} alt="" className={style.buyImage} />
+                <img
+                  src={blackHP}
+                  alt="Black ApplePods Max"
+                  className={style.buyImage}
+                />
               </div>
               <div className="carousel-item ">
-                <img src={blueHP} alt="" className={style.buyImage} />
+                <img
+                  src={blueHP}
+                  alt="Blue ApplePods Max"
+                  className={style.buyImage}
+                />
               </div>
               <div className="carousel-item ">
-                <img src={redHP} alt="" className={style.buyImage} />
+                <img
+                  src={redHP}
+                  alt="Red ApplePods Max"
+                  className={style.buyImage}
+                />
               </div>
               <div className="carousel-item ">
-                <img src={greenHP} alt="" className={style.buyImage} />
+                <img
+                  src={greenHP}
+                  alt="Green ApplePods Max"
+                  className={style.buyImage}
+                />
               </div>
             </div>
           </div>

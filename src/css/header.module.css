@@ -10,7 +10,7 @@ header {
   color: #030303;
   text-align: left;
   font-size: 3rem;
-  margin-bottom: 12%;
+  margin-bottom: 5%;
   width: 100%;
 }
 
@@ -54,11 +54,16 @@ header {
   font-weight: 300;
   font-size: 1.4rem;
   width: 70%;
+  margin-bottom: 10%;
 }
 
 .headphoneImage {
   width: 30%;
   margin-bottom: 8%;
+}
+
+.feature-List {
+  padding-left: 16%;
 }
 
 @media only screen and (max-width: 1600px) {
